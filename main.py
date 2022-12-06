@@ -10,7 +10,9 @@ while stop==1:
     print("3: Quitter")
     choix=input("Choix?")
     if choix==1:
-        lp.split(":")
+        liste=lp.split(":")
+        print(liste)
+        choix=input("Veuillez choisir une pizza:")
 
     elif choix==2:
         print("Hey2")
