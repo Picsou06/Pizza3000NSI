@@ -10,3 +10,4 @@ la PIZZA
 Facultatif:
     Prix
     Ajout d'ingredients
+    Regler la quantité de chaque truc

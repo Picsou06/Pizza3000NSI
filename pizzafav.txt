@@ -2,7 +2,6 @@
     Nom= Pizza chevre miel
     Diamètre= 290mm
     Ingredient= Miel liquide, olives, emmental, chevre, crème fraiche, oignon
-
 2:
     Nom= Pizza 4 Fromages
     Diamètre= 290mm

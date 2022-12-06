@@ -13,12 +13,11 @@ print("3: Quitter")
 print("")
 choix=input("Choix?")
 if choix=="1":
-    ch=lp.read()
-    print(ch)
-    choix=input("Veuillez choisir une pizza:")
+    execfile("choixdepizza.py")
 elif choix=="2":
-    print("Hey2")
+    execfile("creationpizza.py")
 elif choix=="3":
-    print("Hey3")
+    x=0
+    print("Au revoir!")
 else:
     print("Ce choix n'est pas répertorié")
