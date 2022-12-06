@@ -1,3 +1,6 @@
-stop=1
+with open("start.py", "r") as f:
+    content = f.read()
+
+stop = 1
 while stop==1:
-    exec(open("./start.py").read())
+    exec(content)
