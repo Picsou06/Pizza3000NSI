@@ -2,7 +2,7 @@ import re
 lp=open("pizzafav.txt", "r")
 ch=lp.read()
 print(ch)
-z=re.split(":")
+z=re.split(":", lp)
 print(z)
 choix=input("Veuillez choisir une pizza:")
 print("Merci de votre commande de:")
