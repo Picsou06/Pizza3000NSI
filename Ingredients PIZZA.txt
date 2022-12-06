@@ -2,4 +2,4 @@ Taille = 1: 29cm  2: 33cm   3: 40cm
 
 Base =  1: Sauce Tomates    2:Creme fraiche     3: Huile d'olives   4: Rien
 
-Fromages =  1: Gruyère  2:  Mozarella   3:  Emmantal
+Fromages =  1: Gruyere  2:  Mozarella   3:  Emmantal
