@@ -12,7 +12,7 @@ if choix==0:
     stop=0
     print("Au revoir!")
 elif choix==1:
-    exec(open("./start.py").read())
+    exec(open["./start.py"].read())
 else:
     print("Erreur, choix innexistant")
 
