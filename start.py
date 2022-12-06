@@ -17,7 +17,7 @@ if choix=="1":
 elif choix=="2":
     exec(open("./creationpizza.py").read())
 elif choix=="3":
-    x=0
+    stop=0
     print("Au revoir!")
 else:
     print("Ce choix n'est pas repertorie")
