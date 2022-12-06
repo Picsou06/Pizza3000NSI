@@ -1,7 +1,18 @@
 import re
+lp=open("pizzafav.txt", "r")
 ch=lp.read()
 print(ch)
-lp=open("pizzafav.txt", "r")
 z=re.split(":")
-print
+print(z)
 choix=input("Veuillez choisir une pizza:")
+print("Merci de votre commande de:")
+print(z[choix-1])
+choix=input("Souhaitez vous commander autre chose? 0: Non, 1: Oui")
+if choix==0:
+    x=0
+    print("Au revoir!")
+elif choix==1:
+    execfile("start.py")
+else:
+    print("Erreur, choix innexistant")
+
