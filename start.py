@@ -13,9 +13,9 @@ print("3: Quitter")
 print("")
 choix=input("Choix?")
 if choix=="1":
-    execfile("choixdepizza.py")
+    exec(open("./choixdepizza.py").read())
 elif choix=="2":
-    execfile("creationpizza.py")
+    exec(open("./creationpizza.py").read())
 elif choix=="3":
     x=0
     print("Au revoir!")
