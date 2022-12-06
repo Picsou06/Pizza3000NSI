@@ -1,0 +1,23 @@
+1:
+    Nom= Pizza chevre miel
+    Diametre= 290mm
+    Ingredient= Miel liquide, olives, emmental, chevre, creme fraiche, oignon
+2:
+    Nom= Pizza 4 Fromages
+    Diametre= 290mm
+    Ingredient= Mozarella, Fontine, Gorgonzola, Parmesan
+
+3:
+    Nom= Margherita
+    Diametre= 290mm
+    Ingredient= Tomates, Mozarella, Basilic, Huile d'olives
+
+4:
+    Nom= Bolognaise XXL (Du chef)
+    Diametre= 400mm
+    Ingredient=Tomates, Steak hache, oignon, Gruyere
+
+5: 
+    Nom= Reine(Regina)
+    Diametre= 29cm
+    Ingredient=Tomates, Mozarella, Champignons, Jambons
