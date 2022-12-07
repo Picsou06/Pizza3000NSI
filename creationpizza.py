@@ -25,5 +25,13 @@ base=["Sauce Tomates","Creme fraiche","Huile d'olives","Aucune"]
 fromage=["Gruyere","Mozarella","Emmantal"]
 print("Vous avez donc choisi une pizza de "+taille[pizza[0]-1]+" avec une base "+base[pizza[1]-1]+" et avec "+fromage[pizza[2]-1]+" comme fromage")
 addfav=input("Souhaitez vous l'ajouter à vos pizzas favoris?")
-lp=open("pizzafav.txt", "a")
-lp.write()
+if addfav=="1":
+    lp2=open("pizzafav.txt", "a")
+    nom=input("Quel nom souhaitez vous donnez à cette pizza?")
+    Lines = lp.readlines()
+    x=0
+    for line in Lines:
+        x=x+1
+    lp2.write(str(int(x)/5)+":"+"/n"+"/t"+"Nom="+nom+"/n"+"/t"+"Diametre="+taille[pizza[0]-1]+"/n"+"/t"+"base="+base[pizza[1]-1]+"/t"+"ingredient="+fromage[pizza[2]-1])
+else:
+    print("Au revoir, merci de votre visite!")

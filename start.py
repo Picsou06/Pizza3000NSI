@@ -1,10 +1,4 @@
 lp=open("pizzafav.txt", "r")
-with open("pizzafav.txt", "r") as f:
-    content = f.read()
-with open("choixdepizza.py", "r") as f:
-    content2 = f.read()
-with open("creationdepizza.py", "r") as f:
-    content3 = f.read()
 print("Chargement de Pizza3000...")
 print("Voici les pizzas disponibles:")
 ch=lp.read()
