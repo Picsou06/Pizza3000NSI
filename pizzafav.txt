@@ -1,25 +1,25 @@
 1:
     Nom= Pizza chevre miel
-    Diametre= 290mm
+    Diametre= 29cm
     Base=
     Ingredient= Miel liquide, olives, emmental, chevre, creme fraiche, oignon
 2:
     Nom= Pizza 4 Fromages
-    Diametre= 290mm*
+    Diametre= 29cm
     Base=
     Ingredient= Mozarella, Fontine, Gorgonzola, Parmesan
 3:
     Nom= Margherita
-    Diametre= 290mm
+    Diametre= 29cm
     Base=
     Ingredient= Tomates, Mozarella, Basilic, Huile d'olives
 4:
     Nom= Bolognaise XXL (Du chef)
-    Diametre= 400mm
+    Diametre= 40cm
     Base=
     Ingredient=Tomates, Steak hache, oignon, Gruyere
 5:
     Nom= Reine(Regina)
     Diametre= 29cm
     Base=
-    Ingredient=Tomates, Mozarella, Champignons, Jambons0.0:/n/tNom=test/n/tDiametre=40cm/n/tbase=Sauce Tomates/tingredient=Emmantal
+    Ingredient=Tomates, Mozarella, Champignons, Jambons

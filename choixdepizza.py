@@ -1,18 +1,23 @@
-import re
+from time import sleep
 lp=open("pizzafav.txt", "r")
-ch=lp.read()
-print(ch)
-z=re.split(":", lp)
-print(z)
-choix=input("Veuillez choisir une pizza:")
+p=lp.read()
+print(p)
+lp=open("pizzafav.txt", "r")
+Lines = lp.readlines()
+pizza=[]
+x=0
+for line in Lines:
+    x=x+1
+    pizza.append(line)
+x=x/5
+choix=0
+while choix>x or int(choix)<1:
+    choix=int(input("Quel pizza souhaitez vous commander?"))
 print("Merci de votre commande de:")
-print(z[choix-1])
-choix=input("Souhaitez vous commander autre chose? 0: Non, 1: Oui")
-if choix==0:
-    stop=0
-    print("Au revoir!")
-elif choix==1:
-    exec(open["./start.py"].read())
-else:
-    print("Erreur, choix innexistant")
+l=0
+l=(choix-1)*5
+for i in range(4):
+    l=l+1
+    print(pizza[l])
+sleep(3)
 
