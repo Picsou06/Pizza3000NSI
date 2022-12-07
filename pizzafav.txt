@@ -17,9 +17,19 @@
     Nom= Bolognaise XXL (Du chef)
     Diametre= 40cm
     Base=
-    Ingredient=Tomates, Steak hache, oignon, Gruyere
+    Ingredient= Tomates, Steak hache, oignon, Gruyere
 5:
     Nom= Reine(Regina)
     Diametre= 29cm
     Base=
-    Ingredient=Tomates, Mozarella, Champignons, Jambons
+    Ingredient= Tomates, Mozarella, Champignons, Jambons
+6:
+	Nom=La pizza de Axel (petit frere)
+	Diametre=40cm
+	base=Creme fraiche
+	ingredient=Mozarella
+7:
+	Nom=Pizza 4 Chaussure
+	Diametre=40cm
+	base=Creme fraiche
+	ingredient=Mozarella

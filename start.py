@@ -1,4 +1,3 @@
-print("Chargement de Pizza3000...")
 print("Que souhaitez vous faire?")
 print()
 print("1: Commander une pizza du menu")

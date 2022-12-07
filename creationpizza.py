@@ -23,8 +23,8 @@ pizza.append(fromage)
 print(pizza)
 taille=["29cm","33cm","40cm"]
 base=["Sauce Tomates","Creme fraiche","Huile d'olives","Aucune"]
-fromage=["Gruyere","Mozarella","Emmental"]
-print("Vous avez donc choisi une pizza de "+taille[pizza[0]-1]+" avec une base "+base[pizza[1]-1]+" et avec "+fromage[pizza[2]-1]+" comme fromage")
+fromage=["Gruyere","Mozarella","Emmental","Cantal"]
+print("Vous avez donc choisi une pizza de "+taille[pizza[0]-1]+" avec une base "+base[pizza[1]-1]+" et comme ingredients:"+fromage[pizza[2]-1])
 addfav=input("Souhaitez vous l'ajouter a vos pizzas favoris?")
 if addfav=="1":
     lpa=open("pizzafav.txt", "a")
@@ -40,4 +40,5 @@ if addfav=="1":
     print("Pizza ajoute a vos favoris!")
 else:
     print("Au revoir, merci de votre visite!")
+lpa.close
 sleep(3)
