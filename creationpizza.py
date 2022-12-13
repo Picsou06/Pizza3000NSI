@@ -17,13 +17,23 @@ while base<1 or base>4:
 pizza.append(base)
 print("Quel fromages souhaitez vous?")
 fromage=0
-while fromage<1 or fromage>4:
+while fromage<1 or fromage>11:
     fromage=int(input(txtinput[2]))
 pizza.append(fromage)
-print(pizza)
-taille=["29cm","33cm","40cm"]
-base=["Sauce Tomates","Creme fraiche","Huile d'olives","Aucune"]
-fromage=["Gruyere","Mozarella","Emmental","Cantal"]
+print("Quel supplement souhaitez vous?")
+supplement=0
+while supplement<1 or supplement>8:
+    supplement=int(input(txtinput[3]))
+print("Quel supplement souhaitez vous?")
+huile=0
+while huile<1 or huile>2:
+    huile=int(input(txtinput[4]))
+pizza.append(huile)
+Taille=['29cm', '33cm', '40cm']
+Base=['Sauce_Tomates', 'Creme_fraiche', "Huile_d'olives", 'Aucune']
+Fromages=['Gruyere', 'Mozarella', 'Emmantal', 'Cantal', 'Gorgonzola', 'Cheddar', 'Conte', 'Chevre', 'Roquefort', 'Roblechon', 'Aucun']
+Supplement=['Steak_Hache', 'Saumon', 'Olives', 'Champignon', 'Basilic', 'Anchois', 'Frittes', 'Aucun']
+Huile=['Huile_Piquante', 'Aucun']
 print("Vous avez donc choisi une pizza de "+taille[pizza[0]-1]+" avec une base "+base[pizza[1]-1]+" et comme ingredients:"+fromage[pizza[2]-1])
 addfav=input("Souhaitez vous l'ajouter a vos pizzas favoris?")
 if addfav=="1":
