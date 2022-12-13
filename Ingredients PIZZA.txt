@@ -2,5 +2,5 @@ Taille = 1: 29cm 2: 33cm 3: 40cm
 Base = 1: Sauce Tomates 2:Creme fraiche 3: Huile d'olives 4: Aucune
 Fromages = 1: Gruyere 2: Mozarella 3: Emmantal 4: Cantal 5: Gorgonzola 6: Cheddar 7: Conté 8: Chèvre 9: Roquefort 10 : Roblechon 11: Aucun
 Supplément = 1: Steak Hache 2: Saumon 3: Aucun
-Bonus = 1: Olives 2: Champignon 3: Basilic 
-Huile ou sauces = 1: Huile Piquante 
+Bonus = 1: Olives 2: Champignon 3: Basilic 4: Anchois 5: Aucun
+Huile = 1: Huile Piquante  2: Aucun
