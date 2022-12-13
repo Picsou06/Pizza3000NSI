@@ -11,3 +11,4 @@ Facultatif:
     Prix
     Ajout d'ingredients
     Regler la quantite de chaque truc
+    Mettre nos propres ingrediens (et choisir la categorie)
