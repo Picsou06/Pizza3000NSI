@@ -33,3 +33,8 @@
     Diametre= 29cm
     Base=Tomate
     Ingredient= Mozarella, anchois, Origan, Huile d'olive
+8:
+    Nom= Euca
+    Diametre= 33cm
+    Base= Tomate
+    Ingredient= Cantal, Raclette  

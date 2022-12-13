@@ -2,13 +2,21 @@ from time import sleep
 lp=open("ingredients PIZZA.txt", "r")
 Lines = lp.readlines()
 txtinput=[]
+pizza=[]
+nom=[]
+lignes=0
 for line in Lines:
     txtinput.append(line)
-for ingredient in txtinput:
-    print("Quel  souhaitez vous pour votre pizza?")
-    taille=0
-    pizza=[]
-
+for i in txtinput:
+    temp=i.split(" = ")
+    nom.append(temp[0])
+for ingredient in nom:
+    print("Quel "+ingredient+" souhaitez vous pour votre pizza?")
+    pizza.append(input(txtinput[lignes]))
+    lignes=lignes+1
+for i in txtinput:
+    temp=i.split(" = ")
+    nom.append(temp[1])
 print("Vous avez donc choisi une pizza de "+taille[pizza[0]-1]+" avec une base "+base[pizza[1]-1]+" et comme ingredients:"+fromage[pizza[2]-1])
 addfav=input("Souhaitez vous l'ajouter a vos pizzas favoris?")
 if addfav=="1":
