@@ -1,7 +1,7 @@
-from time import sleep #
-lp=open("pizzafav.txt", "r")
-p=lp.read()
-print(p)
+from time import sleep # importation de sleep
+lp=open("pizzafav.txt", "r") #Creation d'une varible lp qui est egale à
+p=lp.read() #Creation d'une varible p qui est egale
+print(p)  #Affichage du contenu de la variable p
 lp=open("pizzafav.txt", "r")
 Lines = lp.readlines()
 pizza=[]

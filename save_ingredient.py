@@ -23,7 +23,5 @@ for i in ingredientt:
     ingredient.append(temp)
 for i in range(len(nom)):
     ch=str(nom[i])+"="+str(ingredient[i])+"\n"
-    ch.rstrip()
-    ch.encode('utf-8')
     vi.write(ch)
 vi.close()
