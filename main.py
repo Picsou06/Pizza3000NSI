@@ -1,7 +1,6 @@
-with open("start.py", "r") as f:
-    print("Chargement de Pizza3000...")
-    content = f.read()
+print("Chargement de Pizza3000...")
 
 stop = 1
 while stop==1:
-    exec(content)
+    x= open("start.py", "r")
+    exec(x.read())
