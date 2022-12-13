@@ -1,4 +1,4 @@
-from time import sleep
+from time import sleep #
 lp=open("pizzafav.txt", "r")
 p=lp.read()
 print(p)
