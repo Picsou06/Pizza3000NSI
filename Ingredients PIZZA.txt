@@ -1,5 +1,4 @@
 Taille = 1: 29cm 2: 33cm 3: 40cm
 Base = 1: Sauce_Tomates 2: Creme_fraiche 3: Huile_d'olives 4: Aucune
-Fromages = 1: Gruyere 2: Mozarella 3: Emmantal 4: Cantal 5: Gorgonzola 6: Cheddar 7: Conte 8: Chevre 9: Roquefort 10: Roblechon 11: Aucun
-Supplement = 1: Steak_Hache 2: Saumon 3: Olives 4: Champignon 5: Basilic 6: Anchois 7: Frittes 8: Aucun
-Huile = 1: Huile_Piquante 2: Aucun
+Fromages = 1: Gruyere 2: Mozarella 3: Emmental 4: Cantal 5: Gorgonzola 6: Cheddar 7: Conte 8: Chevre 9: Roquefort 10: Roblechon
+Supplement = 1: Steak_Hache 2: Saumon 3: Olives 4: Champignon 5: Basilic 6: Anchois 7: Frittes
