@@ -1,3 +1,4 @@
+from main import money
 from time import sleep # importation de sleep
 lp=open("pizzafav.txt", "r") #Creation d'une varible lp
 p=lp.read() #Creation d'une varible p qui est egale

@@ -1,7 +1,7 @@
 1:
     Nom=Pizza chevre miel
     Diametre=29cm
-    Base=Crème
+    Base=Creme
     Ingredient=Miel liquide, olives, emmental, chevre, creme fraiche, oignon
     Prix=13
 2:
