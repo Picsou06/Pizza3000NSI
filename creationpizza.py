@@ -43,7 +43,7 @@ if addfav=="1":#Si addfav=1
     x=0#Creation de la variable x
     for line in Lines:#Repeter Lines fois
         x=x+1#Mise a jour de la variable x
-    x=x/5#Mise a jour de la variable x
+    x=x/6#Mise a jour de la variable x
     x=int(x+1)#Mise a jour de la variable x
     lpa.write("\n"+str(x)+":"+"\n"+"\t"+"Nom="+nom+"\n"+"\t"+"Diametre="+Taille[pizza[0]-1]+"\n"+"\t"+"base="+Base[pizza[1]-1]+"\n"+"\t"+"ingredient=")#Ecriture dans le fichier pizzafav.txt
     lpa.write(Fromages[pizza[2]-1]+" et "+nb+"x"+Supplement[pizza[3]-1]+"\n"+"\t"+"Prix="+str(prix))#Ecriture dans le fichier pizzafav.txt
