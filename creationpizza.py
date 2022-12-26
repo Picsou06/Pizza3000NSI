@@ -52,4 +52,4 @@ if addfav=="1":#Si addfav=1
     lpa.close()#Fermeture de fichier pizzafav.txt
 else:#Sinon
     print("Au revoir, merci de votre visite!")#Affichage de "Au revoir, merci de votre visite!"
-sleep(3)#Attendre 3sec
+sleep(2)#Attendre 3sec

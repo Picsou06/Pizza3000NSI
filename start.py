@@ -16,7 +16,7 @@ elif choix=="2": #Sinon si variable choix est egal 2
     exec(open("./creationpizza.py").read())
 elif choix=="3": #Sinon si la variable choix est egal a 3
     print("Vous possedez actuellement "+str(money)+nomdelamoney) #Affiche l'argent disponible
-    sleep(3)
+    sleep(2)
 elif choix=="4": #Sinon si la variable choix est egal a 4
     stop=0 #La variable stop est desormais egale a 0
     print("Au revoir!") #Affichage de "Au revoir!"

@@ -26,7 +26,7 @@ if prix<money:
     for i in range(5):#Repeter 4 fois
         l=l+1#Mise a jour de la variable l
         print(pizza[l])#Afficher le 2eme element de la variable pizza
-    sleep(3)#Attendre 3 secondes
+    sleep(2)#Attendre 3 secondes
 else:
     print("Vous n'avez pas assez d'argent pour acheter cette pizza!")
 
