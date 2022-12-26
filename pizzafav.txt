@@ -1,40 +1,48 @@
 1:
-    Nom= Pizza chevre miel
-    Diametre= 29cm
-    Base= Crème
-    Ingredient= Miel liquide, olives, emmental, chevre, creme fraiche, oignon
+    Nom=Pizza chevre miel
+    Diametre=29cm
+    Base=Crème
+    Ingredient=Miel liquide, olives, emmental, chevre, creme fraiche, oignon
+    Prix=13
 2:
-    Nom= Pizza 4 Fromages
-    Diametre= 29cm
+    Nom=Pizza 4 Fromages
+    Diametre=29cm
     Base=Tomate
-    Ingredient= Mozarella, Fontine, Gorgonzola, Parmesan
+    Ingredient=Mozarella, Fontine, Gorgonzola, Parmesan
+    Prix=12
 3:
-    Nom= Margherita
-    Diametre= 29cm
+    Nom=Margherita
+    Diametre=29cm
     Base=Tomates
-    Ingredient= Mozarella, Basilic, Huile d'olives
+    Ingredient=Mozarella, Basilic, Huile d'olives
+    Prix=9
 4:
-    Nom= Bolognaise XXL (Du chef)
-    Diametre= 40cm
+    Nom=Bolognaise XXL (Du chef)
+    Diametre=40cm
     Base=Tomates
-    Ingredient= Steak hache, oignon, Gruyere
+    Ingredient=Steak hache, oignon, Gruyere
+    Prix=12
 5:
-    Nom= Reine(Regina)
-    Diametre= 29cm
+    Nom=Reine(Regina)
+    Diametre=29cm
     Base=Tomates
-    Ingredient= Mozarella, Champignons, Jambons
+    Ingredient=Mozarella, Champignons, Jambons
+    Prix=11
 6:
-    Nom= Calzone (plie en deux)
-    Diametre= 33cm
+    Nom=Calzone (plie en deux)
+    Diametre=33cm
     Base=Tomate
     Ingredient=Mozarella, oeuf, Jambom
+    Prix=12
 7:
-    Nom= Romaine
-    Diametre= 29cm
+    Nom=Romaine
+    Diametre=29cm
     Base=Tomate
-    Ingredient= Mozarella, anchois, Origan, Huile d'olive
+    Ingredient=Mozarella, anchois, Origan, Huile d'olive
+    Prix=11
 8:
-    Nom= Euca
-    Diametre= 33cm
-    Base= Tomate
-    Ingredient= Cantal, Raclette  
+    Nom=Euca (Sponsorisé)
+    Diametre=33cm
+    Base=Tomate
+    Ingredient=Cantal, Raclette
+    Prix=1
