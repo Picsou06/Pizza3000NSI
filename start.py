@@ -22,6 +22,6 @@ elif choix=="4": #Sinon si la variable choix est egal a 4
     print("Au revoir!") #Affichage de "Au revoir!"
 elif choix=="motherlode":#Sinon si le choix est "motherlode"
     money=9999#Mise a jour de la variable money
-    nomdelamoney=" simflouz"#Mise a jour de la variable nomdemoney
+    nomdelamoney=" simflouz"#Mise a jour de la variable nomdelamoney
 else: #Sinon
     print("Ce choix n'est pas repertorie") #Affichage de "Ce choix n'est pas repertorie"
