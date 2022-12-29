@@ -1,5 +1,5 @@
-from main import money, nomdelamoney
-from time import sleep
+from main import money, nomdelamoney# importation de money et nomlamoney
+from time import sleep# importation de sleep
 print("") #Saute une ligne
 print("1: Commander une pizza du menu") #Affichage de "1: Commander une pizza au menu"
 print("") #Saute une ligne
@@ -16,12 +16,12 @@ elif choix=="2": #Sinon si variable choix est egal 2
     exec(open("./creationpizza.py").read())
 elif choix=="3": #Sinon si la variable choix est egal a 3
     print("Vous possedez actuellement "+str(money)+nomdelamoney) #Affiche l'argent disponible
-    sleep(2)
+    sleep(2)#attendre 2 sec
 elif choix=="4": #Sinon si la variable choix est egal a 4
     stop=0 #La variable stop est desormais egale a 0
     print("Au revoir!") #Affichage de "Au revoir!"
-elif choix=="motherlode":
-    money=9999
-    nomdelamoney=" simflouz"
+elif choix=="motherlode":#Sinon si le choix est "motherlode"
+    money=9999#Mise a jour de la variable money
+    nomdelamoney=" simflouz"#Mise a jour de la variable nomdemoney
 else: #Sinon
     print("Ce choix n'est pas repertorie") #Affichage de "Ce choix n'est pas repertorie"
