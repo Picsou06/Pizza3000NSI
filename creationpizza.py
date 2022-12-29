@@ -48,7 +48,7 @@ if addfav=="1":#Si addfav=1
     lpa.write("\n"+str(x)+":"+"\n"+"\t"+"Nom="+nom+"\n"+"\t"+"Diametre="+Taille[pizza[0]-1]+"\n"+"\t"+"base="+Base[pizza[1]-1]+"\n"+"\t"+"ingredient=")#Ecriture dans le fichier pizzafav.txt
     lpa.write(Fromages[pizza[2]-1]+" et "+nb+"x"+Supplement[pizza[3]-1]+"\n"+"\t"+"Prix="+str(prix))#Ecriture dans le fichier pizzafav.txt
     print("Pizza ajoute a vos favoris!")#Affichage de "Pizza ajoute a vos favoris!"
-    money=money+20
+    money=money+20#Mise a jour de la variable money
     lpa.close()#Fermeture de fichier pizzafav.txt
 else:#Sinon
     print("Au revoir, merci de votre visite!")#Affichage de "Au revoir, merci de votre visite!"
