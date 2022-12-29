@@ -1,4 +1,4 @@
-from main import money
+from main import money#Importation de money
 from time import sleep#Importation de sleep
 lp=open("ingredients PIZZA.txt", "r")#Creation d'une varible lp
 Lines = lp.readlines()#Creation de la variable Lines
