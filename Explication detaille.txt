@@ -1,3 +1,33 @@
-Main :
-            Line 1:afficher :"Chargement de Pizza 3000"
-            Line 3,4,5 et 6: Tant que "stop" est egal à 1 Le programme tourne
+Main :Cela affiche la phrase "Chargement de Pizza3000" puis tant que la variable stop=1 la programme fonctionne
+     Creation de la variable Money qui permet une gestion d'argent tout au long de l'experience
+     Affiche l'argent que vous possedez actuellement
+     Si vous avez de l'argent (money>=0) cela lance start.py
+     Sinon on vous annonce que vous devez travailler et lance creationpizza.py
+     
+Start:Affiche les options disponibles 
+      -1: Commander une pizza du menu
+      -2: Creer une pizza
+      -3: Connaitre mon solde
+      -4: Quitter
+      Demande le choix de l'utilisateur avec la phrase "choix ?"
+      Si la reponse est 1: Cela lance le fichier choixpizza.py
+      Si la reponse est 2: Cela lance le fichier creationpizza.py
+      Si la reponse est 3: Cela affiche l'argent que vous possedez actullement
+      Si la reponse est 4: Cela fait passer la variable stop à 0 et arrete tout apres avoir dit "Au revoir"
+      Si la reponse est "motherlode": Ceci est un cheat code et fait passer la variable money a 9999 et change le nom de la monnaie
+      Sinon : Cela affiche "Ce choix n'est pas repertorie"
+
+Choixdepizza:
+      Affiche le contenu de pizzafav.fav qui presente une liste de pizza
+      En fonction de votre réponse, vous choisissez une pizza
+      Debite de l'argent Si vous en avez assez sinon vous annonce que vous n'en avez pas assez
+      
+Creationdepizza:
+      Affiche les ingredients possible pour les pizza
+      On vous demande la taille de la pizza parmi plusieurs choix puis la base, le fromage et le suplemment
+      On vous annonce la combinaison choisie
+      Affiche "Souhaitez vous l'ajouter a vos pizzas favoris?(1: Oui, autre: Non)"
+      Si la reponse est 1: La combinaison se rajoute au fichier pizzafav.txt puis vous choisissez le nom de votre pizza et le prix
+      Affiche la phrase "Pizza ajoute a vos favoris!"
+      Donne 20 € à votre tirelire
+      Sinon cela affiche "Au revoir, merci de votre visite!"
