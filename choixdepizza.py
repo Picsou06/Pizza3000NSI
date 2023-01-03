@@ -4,7 +4,6 @@ from time import sleep # importation de sleep
 
 lp=open("pizzafav.txt", "r") #Creation d'une variable lp
 p=lp.read() #Creation d'une varible p qui est egale
-
 print(p)  #Affichage du contenu de la variable p
 
 lp=open("pizzafav.txt", "r")#Mise a jour de la variable lp
