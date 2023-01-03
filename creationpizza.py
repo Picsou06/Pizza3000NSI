@@ -33,7 +33,10 @@ pizza.append(fromage)#Ajout dans la variable pizza de la variable fromage
 
 nb=input("Combien de supplement souhaitez vous? ")
 print("Quel supplement souhaitez vous? ")#Affichage de "Quel supplement souhaitez vous?"
+print(nb)
 for i in range(int(nb)):
+    print(nb)
+    supplement=0
     while supplement<1 or supplement>8:#Tant que supplement<1 ou s'il est >8
         supplement=int(input(txtinput[3]))#Mise a jour de la variable supplement
         supplementls.append(supplement)#Ajout dans la variable pizza de la variable supplement
@@ -42,8 +45,9 @@ Taille=['29cm', '33cm', '40cm']#Creation de la variable Taille
 Base=['Sauce_Tomates', 'Creme_fraiche', "Huile_d'olives", 'Aucune']#Creation de la variable Base
 Fromages=['Gruyere', 'Mozarella', 'Emmental', 'Cantal', 'Gorgonzola', 'Cheddar', 'Conte', 'Chevre', 'Roquefort', 'Roblechon', 'Aucun']#Creation de la variable Fromages
 Supplement=['Steak_Hache', 'Saumon', 'Olives', 'Champignon', 'Basilic', 'Anchois', 'Frites']#Creation de la variable Supplements
+supplement=""
 for i in supplementls:
-    supplement=Supplement(int(i)-1)+" "
+    supplement=supplement+Supplement[int(i)-1]+" "
 print("Vous avez donc choisi une pizza de "+Taille[pizza[0]-1]+" avec une base "+Base[pizza[1]-1]+" et comme ingredients:"+Fromages[pizza[2]-1]+", "+supplement) #Affichage de "Vous avez donc choisi une pizza de "+taille[pizza[0]-1]+" avec une base "+base[pizza[1]-1]+" et comme ingredients:"+Fromages[pizza[2]-1]+", "+Supplement[pizza[3]-1]
 addfav=input("Souhaitez vous l'ajouter a vos pizzas favoris?(1: Oui, autre: Non) ")#Creation de la variable addfav
 
