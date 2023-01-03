@@ -1,5 +1,7 @@
 from main import money#Importation de money
 from time import sleep#Importation de sleep
+
+
 taille=0#Creation de la variable taille
 pizza=[]#Creation de la variable pizza
 base=0#Creation de la variable base
@@ -41,6 +43,7 @@ Supplement=['Steak_Hache', 'Saumon', 'Olives', 'Champignon', 'Basilic', 'Anchois
 print("Vous avez donc choisi une pizza de "+Taille[pizza[0]-1]+" avec une base "+Base[pizza[1]-1]+" et comme ingredients:"+Fromages[pizza[2]-1]+", "+nb+"x"+Supplement[pizza[3]-1]) #Affichage de "Vous avez donc choisi une pizza de "+taille[pizza[0]-1]+" avec une base "+base[pizza[1]-1]+" et comme ingredients:"+Fromages[pizza[2]-1]+", "+Supplement[pizza[3]-1]
 
 addfav=input("Souhaitez vous l'ajouter a vos pizzas favoris?(1: Oui, autre: Non)")#Creation de la variable addfav
+
 if addfav=="1":#Si addfav=1
     lpa=open("pizzafav.txt", "a")#Creation de la variable lpa
     lpr=open("pizzafav.txt", "r")#Creation de la variable lpr
@@ -59,4 +62,5 @@ if addfav=="1":#Si addfav=1
     lpa.close()#Fermeture de fichier pizzafav.txt
 else:#Sinon
     print("Au revoir, merci de votre visite!")#Affichage de "Au revoir, merci de votre visite!"
+
 sleep(2)#Attendre 2sec
