@@ -1,14 +1,21 @@
 from main import money, nomdelamoney# importation de money et nomlamoney
 from time import sleep# importation de sleep
+
+
 print("") #Saute une ligne
+
 print("1: Commander une pizza du menu") #Affichage de "1: Commander une pizza au menu"
 print("") #Saute une ligne
+
 print("2: Creer une pizza") #Affichage de "2: Creer une pizza"
 print("") #Saute une ligne
+
 print("3: Connaitre mon solde") #Affichage de "3: Quitter"
 print("") #Saute une ligne
+
 print("4: Quitter") #Affichage de "3: Quitter"
 print("") #Saute une ligne
+
 choix=input("Choix?") #Creation d'une varible choix ou la valeur est demande
 if choix=="1": #Si la variable choix est egale a 1:
     exec(open("./choixdepizza.py").read())
