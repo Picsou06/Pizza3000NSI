@@ -18,7 +18,7 @@ x=x/6#Mise a jour de la variable x
 choix=0#Creation de la variabe choix
 
 while choix>x or int(choix)<1:#Tant que choix > x ou choix < 1
-    choix=int(input("Quel pizza souhaitez vous commander?"))#Mise a jour de la variable choix
+    choix=int(input("Quel pizza souhaitez vous commander? "))#Mise a jour de la variable choix
     
 #recupération du prix:
 l=(choix-1)*6+5#Mise a jour de la variable l
