@@ -7,6 +7,7 @@ pizza=[]#Creation de la variable pizza
 base=0#Creation de la variable base
 supplement=0#Creation de la variable supplement
 fromage=0#Creation de la variable fromage
+supplementls=[]
 
 lp=open("ingredients PIZZA.txt", "r")#Creation d'une varible lp
 Lines = lp.readlines()#Creation de la variable Lines
@@ -33,9 +34,9 @@ pizza.append(fromage)#Ajout dans la variable pizza de la variable fromage
 nb=input("Combien de supplement souhaitez vous? ")
 print("Quel supplement souhaitez vous? ")#Affichage de "Quel supplement souhaitez vous?"
 for i in range(int(nb)):
-while supplement<1 or supplement>8:#Tant que supplement<1 ou s'il est >8
-    supplement=int(input(txtinput[3]))#Mise a jour de la variable supplement
-    supplementls.append(supplement)#Ajout dans la variable pizza de la variable supplement
+    while supplement<1 or supplement>8:#Tant que supplement<1 ou s'il est >8
+        supplement=int(input(txtinput[3]))#Mise a jour de la variable supplement
+        supplementls.append(supplement)#Ajout dans la variable pizza de la variable supplement
 
 Taille=['29cm', '33cm', '40cm']#Creation de la variable Taille
 Base=['Sauce_Tomates', 'Creme_fraiche', "Huile_d'olives", 'Aucune']#Creation de la variable Base
