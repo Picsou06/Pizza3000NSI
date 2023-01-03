@@ -46,9 +46,3 @@
     Base=Tomate
     Ingredient=Cantal, Raclette
     Prix=1
-9:
-	Nom=test
-	Diametre=29cm
-	base=Sauce_Tomates
-	ingredient=Gruyere et 1xSteak_Hache
-	Prix=10
