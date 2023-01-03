@@ -1,8 +1,8 @@
 print("Chargement de Pizza3000...") #Affichage de Chargement de Pizza3000... (déco)
 
-money=50
-nomdelamoney=" Euros"
-print("Vous possedez actuellement "+str(money)+nomdelamoney)
+money=50#Creation de la variable money
+nomdelamoney=" Euros"#Creation de la variable nomdelamoney
+print("Vous possedez actuellement "+str(money)+nomdelamoney)#Affichage de "Vous possedez actuellement "+la money que vous avez
 
 stop = 1 #Creation d'une varible stop pour la boucle
 
