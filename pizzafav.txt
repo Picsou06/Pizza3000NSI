@@ -1,5 +1,5 @@
 1:
-    Nom=Euca (Sponsorisé)
+    Nom=Euca (Sponsorise)
     Diametre=33cm
     Base=Tomate
     Ingredient=Cantal, Raclette

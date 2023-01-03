@@ -30,18 +30,20 @@ while fromage<1 or fromage>11:#Tant que fromage<1 ou fromage>11
     fromage=int(input(txtinput[2]))#Mise a jour de la variable fromage
 pizza.append(fromage)#Ajout dans la variable pizza de la variable fromage
 
+nb=input("Combien de supplement souhaitez vous?")
 print("Quel supplement souhaitez vous?")#Affichage de "Quel supplement souhaitez vous?"
+for i in range(nb):
 while supplement<1 or supplement>8:#Tant que supplement<1 ou s'il est >8
     supplement=int(input(txtinput[3]))#Mise a jour de la variable supplement
-pizza.append(supplement)#Ajout dans la variable pizza de la variable supplement
-nb=input("Combien de supplement souhaitez vous?")
+    supplementls.append(supplement)#Ajout dans la variable pizza de la variable supplement
 
 Taille=['29cm', '33cm', '40cm']#Creation de la variable Taille
 Base=['Sauce_Tomates', 'Creme_fraiche', "Huile_d'olives", 'Aucune']#Creation de la variable Base
 Fromages=['Gruyere', 'Mozarella', 'Emmental', 'Cantal', 'Gorgonzola', 'Cheddar', 'Conte', 'Chevre', 'Roquefort', 'Roblechon', 'Aucun']#Creation de la variable Fromages
 Supplement=['Steak_Hache', 'Saumon', 'Olives', 'Champignon', 'Basilic', 'Anchois', 'Frites']#Creation de la variable Supplements
-print("Vous avez donc choisi une pizza de "+Taille[pizza[0]-1]+" avec une base "+Base[pizza[1]-1]+" et comme ingredients:"+Fromages[pizza[2]-1]+", "+nb+"x"+Supplement[pizza[3]-1]) #Affichage de "Vous avez donc choisi une pizza de "+taille[pizza[0]-1]+" avec une base "+base[pizza[1]-1]+" et comme ingredients:"+Fromages[pizza[2]-1]+", "+Supplement[pizza[3]-1]
-
+for i in supplementls:
+    supplement=Supplement(int(i)-1)+" "
+print("Vous avez donc choisi une pizza de "+Taille[pizza[0]-1]+" avec une base "+Base[pizza[1]-1]+" et comme ingredients:"+Fromages[pizza[2]-1]+", "+supplement) #Affichage de "Vous avez donc choisi une pizza de "+taille[pizza[0]-1]+" avec une base "+base[pizza[1]-1]+" et comme ingredients:"+Fromages[pizza[2]-1]+", "+Supplement[pizza[3]-1]
 addfav=input("Souhaitez vous l'ajouter a vos pizzas favoris?(1: Oui, autre: Non)")#Creation de la variable addfav
 
 if addfav=="1":#Si addfav=1
@@ -56,7 +58,7 @@ if addfav=="1":#Si addfav=1
     x=x/6#Mise a jour de la variable x
     x=int(x+1)#Mise a jour de la variable x
     lpa.write("\n"+str(x)+":"+"\n"+"\t"+"Nom="+nom+"\n"+"\t"+"Diametre="+Taille[pizza[0]-1]+"\n"+"\t"+"base="+Base[pizza[1]-1]+"\n"+"\t"+"ingredient=")#Ecriture dans le fichier pizzafav.txt
-    lpa.write(Fromages[pizza[2]-1]+" et "+nb+"x"+Supplement[pizza[3]-1]+"\n"+"\t"+"Prix="+str(prix))#Ecriture dans le fichier pizzafav.txt
+    lpa.write(Fromages[pizza[2]-1]+" et "+supplement+"\n"+"\t"+"Prix="+str(prix))#Ecriture dans le fichier pizzafav.txt
     print("Pizza ajoute a vos favoris!")#Affichage de "Pizza ajoute a vos favoris!"
     money=money+20#Mise a jour de la variable money
     lpa.close()#Fermeture de fichier pizzafav.txt
