@@ -1,39 +1,39 @@
 1:
+    Nom=Euca (Sponsorisé)
+    Diametre=33cm
+    Base=Tomate
+    Ingredient=Cantal, Raclette
+    Prix=1    
+2:
     Nom=Pizza chevre miel
     Diametre=29cm
     Base=Creme
     Ingredient=Miel liquide, olives, emmental, chevre, creme fraiche, oignon
     Prix=13
-2:
+3:
     Nom=Pizza 4 Fromages
     Diametre=29cm
     Base=Tomate
     Ingredient=Mozarella, Fontine, Gorgonzola, Parmesan
     Prix=12
-3:
+4:
     Nom=Margherita
     Diametre=29cm
     Base=Tomates
     Ingredient=Mozarella, Basilic, Huile d'olives
     Prix=9
-4:
+5:  
     Nom=Bolognaise XXL (Du chef)
     Diametre=40cm
     Base=Tomates
     Ingredient=Steak hache, oignon, Gruyere
     Prix=12
-5:
+6:
     Nom=Reine(Regina)
     Diametre=29cm
     Base=Tomates
     Ingredient=Mozarella, Champignons, Jambons
     Prix=11
-6:
-    Nom=Calzone (plie en deux)
-    Diametre=33cm
-    Base=Tomate
-    Ingredient=Mozarella, oeuf, Jambom
-    Prix=12
 7:
     Nom=Romaine
     Diametre=29cm
@@ -41,8 +41,8 @@
     Ingredient=Mozarella, anchois, Origan, Huile d'olive
     Prix=11
 8:
-    Nom=Euca (Sponsorisé)
+    Nom=Calzone (plie en deux)
     Diametre=33cm
     Base=Tomate
-    Ingredient=Cantal, Raclette
-    Prix=1
+    Ingredient=Mozarella, oeuf, Jambom
+    Prix=12
